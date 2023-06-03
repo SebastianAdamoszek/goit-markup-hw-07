@@ -168,19 +168,19 @@ a {
   left: 0;
 }
 
-.contacts-position {
+.header__contacts--position {
   margin-left: 250px;
   display: flex;
   align-items: center;
 }
-.contact-space {
+.header__contact--space {
   padding-right: 50px;
 }
-.contacts {
+.header__contacts-link--text {
   color: var(--gray-color);
   
 }
-.contacts:hover {
+.header__contacts-link--text:hover {
   color: var(--blue-color);
 }
 .title-h1 {
@@ -424,13 +424,13 @@ button {
   fill: currentColor;
 }
 
-.icon-envelope {
+.header__icon-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.icon-smartphone {
+.header__icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px; 
