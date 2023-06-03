@@ -378,6 +378,7 @@ button {
 .footer__address {
 
   padding-bottom: 30px;
+  padding-top: px;
 }
 .footer__address__link--color-white {
   color: var(--white-color);
@@ -450,8 +451,9 @@ button {
 
 .social-icons-box {
   display: flex;
-  justify-content: space-between;
-  padding: 18px 32px 0px 32px;
+  justify-content: center;
+  padding-top: 18px;
+  gap: 16px;
 }
 .position-person,
 .social-icons-person {
@@ -485,8 +487,9 @@ button {
 .footer-social-icons-box {
   display: flex;
   flex-direction: column;
-  /* padding-top: 30px; */
-  padding-left: 30px;
+  padding-bottom: 50px;
+ 
+  /* padding-left: 30px; */
   width: 300px;
   color: var(--white-color);
 }
@@ -541,7 +544,16 @@ button {
   visibility: hidden;
   pointer-events: none;
 }
-
+.footer__newsletter {
+  padding-bottom: 50px;
+}
+.footer__social-icon--title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  
+}
 .footer__newsletter--title {
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -550,8 +562,8 @@ button {
   
 }
 .newsletter {
-  margin-top: 20px;
-  height: 50px;
+  margin-top: 18px;
+  height:44px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -562,13 +574,14 @@ button {
 }
 .button-newsletter {
   color: var(--white-color);
-  height: 50px;
+  height: 44px;
   width: 200px;
   border: none;
   border-radius: 4px;
   background-color: var(--blue-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   font-family: Roboto serif;
+  text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
