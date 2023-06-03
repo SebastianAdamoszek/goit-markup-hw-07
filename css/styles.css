@@ -20,23 +20,34 @@
 }
 body {
   font-family: "roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   background: var(--white-color);
   color: var(--black-text-color);
 }
-header {
-  font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-}
+
 footer {
   font-size: 14px;
   letter-spacing: 0.03em;
   background: var(--dark-color);
   padding: 50px 0px 25px 0px;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+a:hover,
+a:focus {
+  color: var(--blue-color);
+}
+a:link {
+  text-decoration: none;
+  transition: var(--transition);
+}
+ul {
+  list-style: none;
+}
+
 .footer-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -57,24 +68,16 @@ h5 {
   text-transform: uppercase;
   line-height: 3;
 }
-ul {
-  list-style: none;
-}
+
 p {
   line-height: 1.8;
 }
 a {
   line-height: 2.2;
 }
-a:link {
-  text-decoration: none;
-  transition: var(--transition);
-}
 
-a:hover,
-a:focus {
-  color: var(--blue-color);
-}
+
+
 
 .wrapper {
   width: 1600px;
@@ -84,26 +87,20 @@ a:focus {
   width: 1200px;
   margin: 0px auto;
 }
-* {
-  margin: 0;
-  padding: 0;
+
+.header__logo, .footer__logo {
+  padding-left: 215px;
 }
-.header-box {
-  border-bottom: 1px solid var(--line-main-color);
-}
-.group-nav {
-  display: flex;
-  padding-left: 93px;
-}
+
 .logo {
   font-family: "raleway", sans-serif;
   color: var(--blue-color);
   font-size: 26px;
   letter-spacing: 0.03em;
-  padding-left: 215px;
+  line-height: 1.6;  
 }
 
-.logo-black {
+.logo--color__black {
   color: var(--logo-black-color);
 }
 .logo-white {
@@ -115,19 +112,30 @@ a:focus {
   transition: var(--transition);
 }
 
-.group-header {
+.page-header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 10px 0px 10px 0px;
 }
-.nav {
+.header--box {
+  border-bottom: 1px solid var(--line-main-color);
+}
+.header__nav {
+  display: flex;
+  padding-left: 93px;
+}
+.header__nav--item {
+  padding: 0px 46px 0px 0px;
+}
+.header__nav--text {
   font-style: medium;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.6;
   letter-spacing: 0.02em;
   color: var(--black-text-color);
-  padding: 0px 46px 0px 0px;
+  
 }
 .side-active {
   color: var(--blue-color);
@@ -365,11 +373,9 @@ button {
   padding-bottom: 30px;
 }
 .white-link {
-  font-style: normal;
   color: var(--white-color);
 }
 .gray-link {
-  font-style: normal;
   color: var(--light-gray-text-color);
 }
 
