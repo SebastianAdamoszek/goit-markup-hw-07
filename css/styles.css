@@ -30,7 +30,7 @@ footer {
   font-size: 14px;
   letter-spacing: 0.03em;
   background: var(--dark-color);
-  padding: 50px 0px 25px 0px;
+  
 }
 * {
   margin: 0;
@@ -43,15 +43,21 @@ a:focus {
 a:link {
   text-decoration: none;
   transition: var(--transition);
-}
+} 
 ul {
   list-style: none;
+}
+address {
+    font-style: normal;
 }
 
 .footer-wrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 215px 25px 215px;
 }
+
 
 h2 {
   font-weight: 700;
@@ -88,7 +94,7 @@ a {
   margin: 0px auto;
 }
 
-.header__logo, .footer__logo {
+.header__logo {
   padding-left: 215px;
 }
 
@@ -137,16 +143,16 @@ a {
   color: var(--black-text-color);
   
 }
-.side-active {
+.header__nav__side-active {
   color: var(--blue-color);
   text-decoration: underline 4px;
   text-underline-offset: 19.5px;
 }
 
-.nav-active {
+.header__nav-active {
   position: relative;
 }
-.nav-active::after {
+.header__nav-active::after {
   content: "";
   width: 0;
   height: 4px;
@@ -157,7 +163,7 @@ a {
   transition: width 0.5s, right 0.5s;
 }
 
-.nav-active:hover::after {
+.header__nav-active:hover::after {
   width: 100%;
   left: 0;
 }
@@ -368,14 +374,15 @@ button {
   visibility: visible;
 }
 
-.address {
-  margin-left: 215px;
+
+.footer__address {
+
   padding-bottom: 30px;
 }
-.white-link {
+.footer__address__link--color-white {
   color: var(--white-color);
 }
-.gray-link {
+.footer__address__link--color-gray {
   color: var(--light-gray-text-color);
 }
 
@@ -478,7 +485,7 @@ button {
 .footer-social-icons-box {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-left: 30px;
   width: 300px;
   color: var(--white-color);
@@ -534,16 +541,13 @@ button {
   visibility: hidden;
   pointer-events: none;
 }
-.footer-title-newsletter {
-  padding-top: 30px;
-  padding-left: 60px;
-}
-.footer-title-newsletter span {
+
+.footer__newsletter--title {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin: 0;
+  
 }
 .newsletter {
   margin-top: 20px;
