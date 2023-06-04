@@ -1,0 +1,21 @@
+.logo {
+    font-family: "raleway", sans-serif;
+    color: var(--blue-color);
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.logo--color-black {
+    color: var(--logo-black-color);
+}
+
+.logo--color-white {
+    color: var(--white-color);
+}
+
+.logo:hover .logo--color-white,
+.logo:hover .logo--color-black {
+    color: var(--blue-color);
+    transition: var(--transition);
+}

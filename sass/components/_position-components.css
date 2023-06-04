@@ -1,0 +1,29 @@
+.header__logo-position {
+  padding-left: 215px;
+}
+
+
+.group-studio {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+  gap: 30px;
+}
+.customers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+ 
+}
+
+.group-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 215px 25px 215px;
+}

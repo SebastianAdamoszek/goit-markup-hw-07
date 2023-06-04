@@ -1,0 +1,43 @@
+.our-strengths-text {
+  font-size: 14px;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+.our-job {
+  position: relative;
+}
+.our-job img {
+  float: left;
+}
+
+.our-job-background {
+  position: absolute;
+  color: var(--white-color);
+  background-color: var(--grey-transparent-background);
+  width: 100%;
+  bottom: 0;
+}
+.our-job-background > p {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding: 27px;
+}
+
+
+
+.our-strengths-icon {
+  margin-bottom: 30px;
+  background-color: var(--light-gray-color);
+  border-radius: 4px;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+}
+.our-strengths-icon svg {
+  width: 70px;
+  height: 70px;
+  cursor: auto;
+}

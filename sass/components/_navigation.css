@@ -1,0 +1,40 @@
+.header__nav {
+  display: flex;
+  padding-left: 93px;
+}
+.header__nav--item {
+  padding: 0px 46px 0px 0px;
+}
+.header__nav--text {
+  font-style: medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: var(--black-text-color);
+  
+}
+.header__nav__side-active {
+  color: var(--blue-color);
+  text-decoration: underline 4px;
+  text-underline-offset: 19.5px;
+}
+
+.header__nav-active {
+  position: relative;
+}
+.header__nav-active::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  background: var(--blue-color);
+  transition: width 0.5s, right 0.5s;
+}
+
+.header__nav-active:hover::after {
+  width: 100%;
+  left: 0;
+}
