@@ -8,6 +8,12 @@
   transition-property: opacity, scale, visibility;
   transition-duration: 1s;
 }
+.is-hidden {
+  scale: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -34,11 +40,7 @@
   height: 18px;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+
 input::placeholder {
   font-family: Roboto serif;
   font-size: 16px;
