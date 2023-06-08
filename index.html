@@ -17,40 +17,47 @@
 
   <body>
     <div class="page-wrapper">
-      <header class="page-header header--box">
-        
-          <a href="index.html" class="header__logo-position logo"
-            ><span>Web</span><span class="logo--color-black">Studio</span></a
+      <header class="header-wrapper header--box">
+        <!--start component logo -->
+        <section>
+          <a href="index.html" class="logo__link--text"
+            >
+            <div class="logo--underline">
+              <span>Web</span><span class="logo--text-black">Studio</span>
+            </div>
+            </a
           >
-        
-        <nav>
-          <ul class="header__nav">
-            <li class="header__nav--item">
-              <a class="header__nav--text" href="index.html"
-                ><span class="header__nav__side-active header__nav-active">Agencja</span></a
+        </section>
+        <!-- end component logo -->
+        <nav class="nav-position">
+          <ul class="nav">
+            <li>
+              <a class="nav__link__text " href="index.html"
+                ><span class="nav__text--side-active">Agencja</span></a
               >
             </li>
-            <li class="header__nav--item">
-              <a class="header__nav--text" href="portfolio.html"
-                ><span class="header__nav-active">Portfolio</span></a
+            <li>
+              <a class="nav__link__text" href="portfolio.html"
+                ><span class="nav__text--underline ">Portfolio</span></a
               >
             </li>
-            <li class="header__nav--item">
-              <a class="header__nav--text" href="#"
-                ><span class="header__nav-active">Kontakt</span></a
+            <li>
+              <a class="nav__link__text" href="#"
+                ><span class="nav__text--underline">Kontakt</span></a
               >
             </li>
           </ul>
         </nav>
-        <div class="header__contacts--position">
-          <a class="header__contacts-link--text header__contact--space" href="mailto:info@devstudio.com">
-            <svg class="icon header__icon-envelope">
+
+        <div class="header__contacts__wrapper">
+          <a class="header__link--color  contact--underline" href="mailto:info@devstudio.com">
+            <svg class="header__icon-envelope icon">
               <use href="./images/icons.svg#icon-envelope"></use></svg
             >info@devstudio.com</a
           >
-
-          <a class="header__contacts-link--text" href="tel:+48111111111">
-            <svg class="icon header__icon-smartphone">
+            
+          <a class="header__link--color contact--underline" href="tel:+48111111111">
+            <svg class="header__icon-smartphone icon">
               <use href="./images/icons.svg#icon-smartphone"></use></svg
             >+48 111 111 111</a
           >
@@ -353,18 +360,20 @@
       </main>
 
       <footer>
-        <div class="footer-wrapper footer--color">
+        <div class="footer-wrapper footer--background">
           <div>
-            
-              <a href="index.html" class=" logo"
-                ><span>Web</span><span class="logo--color-white">Studio</span></a
+            <!-- start component logo -->
+            <section>
+              <a href="index.html" class=" logo__link--text"
+                ><span>Web</span><span class="logo--text-white">Studio</span></a
               >
-            
-            <address>
-              <ul class="footer__address">
+            </section>
+            <!-- end component logo -->
+            <address class="footer__address--padding">
+              <ul>
                 <li>
                   <a
-                    class="footer__address__link--color-white"
+                    class="footer__link--color-white"
                     href="https://goo.gl/maps/inEjP3cUXhnqV63DA"
                     target="_blank"
                     rel="noopener nofollow noreferrer"
@@ -373,22 +382,22 @@
                   >
                 </li>
                 <li>
-                  <a class="footer__address__link--color-gray" href="mailto:info@devstudio.com"
+                  <a class="footer__link--color-gray" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="footer__address__link--color-gray" href="tel:+48111111111"
+                  <a class="footer__link--color-gray" href="tel:+48111111111"
                     >+48 111 111 111</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer__social-icons--box">
-            <span class="footer__social-icon--title">Dołącz do nas</span>
-            <div>
-              <ul class="social-icons__box" >
+          <div class="footer__social-icons__box">
+            <span class="footer__title">dołącz do nas</span>
+              <div class="social-icon__box--space">
+               <ul class="social-icons__box" >
                 <li class="social-icons__item footer__social-icons__item">
                   <svg class="social-icons__icon icon">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -409,8 +418,8 @@
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
                 </li>
-              </ul>
-            </div>
+               </ul>
+              </div>
           </div>
           <section class="footer__newsletter">
             <span class="footer__newsletter--title">Zapisz się do newslettera</span>

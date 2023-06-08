@@ -16,27 +16,7 @@
 @import './components/section-team';
 @import './components/vars';
 
+@import './utils/base';
+@import './utils/vars';
+@import './utils/variables';
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-}
-
-h5 {
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    line-height: 3;
-}
-
-p {
-    line-height: 1.8;
-}
-
-a {
-    line-height: 2.2;
-}

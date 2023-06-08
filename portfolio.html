@@ -15,33 +15,48 @@
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="group-header header-box">
-        <p>
-          <a href="index.html" class="logo"
-            ><span>Web</span><span class="logo-black"><span>Studio</span></a
+    <div class="page-wrapper">
+     <header class="header-wrapper header--box">
+        <!--start component logo -->
+        <section>
+          <a href="index.html" class="logo__link--text"
+            >
+            <div class="logo--underline">
+              <span>Web</span><span class="logo--text-black">Studio</span>
+            </div>
+            </a
           >
-        </p>
-        <nav>
-          <ul class="group-nav">
-            <li><a class="nav" href="index.html"><span class="nav-active">Agencja</span></a></li>
+        </section>
+        <!-- end component logo -->
+        <nav class="nav-position">
+          <ul class="nav">
             <li>
-              <a class=" nav" href="portfolio.html"
-                ><span class="side-active nav-active">Portfolio</span></a
+              <a class="nav__link__text " href="index.html"
+                ><span class="nav__text--underline">Agencja</span></a
               >
             </li>
-            <li><a class="nav " href="#"><span class="nav-active">Kontakt</span></a></li>
+            <li>
+              <a class="nav__link__text" href="portfolio.html"
+                ><span class="nav__text--side-active">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a class="nav__link__text" href="#"
+                ><span class="nav__text--underline">Kontakt</span></a
+              >
+            </li>
           </ul>
         </nav>
-        <div class="contacts-position">
-          <a class="contacts contact-space" href="mailto:info@devstudio.com">
-            <svg class="icon icon-envelope">
+
+        <div class="header__contacts__wrapper">
+          <a class="header__link--color  contact--underline" href="mailto:info@devstudio.com">
+            <svg class="header__icon-envelope icon">
               <use href="./images/icons.svg#icon-envelope"></use></svg
             >info@devstudio.com</a
           >
-
-          <a class="contacts" href="tel:+48111111111">
-            <svg class="icon icon-smartphone">
+            
+          <a class="header__link--color contact--underline" href="tel:+48111111111">
+            <svg class="header__icon-smartphone icon">
               <use href="./images/icons.svg#icon-smartphone"></use></svg
             >+48 111 111 111</a
           >

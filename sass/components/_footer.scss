@@ -1,3 +1,10 @@
-.footer--color {
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 200px 60px 200px;
+}
+
+.footer--background {
   background: var(--dark-color);
 }
