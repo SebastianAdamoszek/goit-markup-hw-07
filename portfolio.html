@@ -267,19 +267,22 @@
           </div>
         </main>
       </div>
+
       <footer>
-        <div class="footer-wrapper">
+        <div class="footer-wrapper footer--background">
           <div>
-            <p>
-              <a href="index.html" class="logo"
-                ><span>Web</span><span class="logo-white">Studio</span></a
+            <!-- start component logo -->
+            <section>
+              <a href="index.html" class=" logo__link--text"
+                ><span>Web</span><span class="logo--text-white">Studio</span></a
               >
-            </p>
-            <address>
-              <ul class="address">
+            </section>
+            <!-- end component logo -->
+            <address class="footer__address--padding">
+              <ul>
                 <li>
                   <a
-                    class="white-link"
+                    class="footer__link--color-white"
                     href="https://goo.gl/maps/inEjP3cUXhnqV63DA"
                     target="_blank"
                     rel="noopener nofollow noreferrer"
@@ -288,66 +291,67 @@
                   >
                 </li>
                 <li>
-                  <a class="gray-link" href="mailto:info@devstudio.com"
+                  <a class="footer__link--color-gray" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="gray-link" href="tel:+48111111111"
+                  <a class="footer__link--color-gray" href="tel:+48111111111"
                     >+48 111 111 111</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer-social-icons-box">
-            <span>Dołącz do nas</span>
-            <div>
-              <ul class="social-icons-box">
-                <li>
-                  <svg class="icon">
+          <section class="footer__social-icons__box">
+            <span class="footer__title">dołącz do nas</span>
+              <div class="social-icon__box--space">
+               <ul class="social-icons__box" >
+                <li class="social-icons__item footer__social-icons__item">
+                  <svg class="social-icons__icon icon">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </li>
-                <li>
-                  <svg class="icon">
+                <li class="social-icons__item footer__social-icons__item">
+                  <svg class="social-icons__icon icon">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </li>
-                <li>
-                  <svg class="icon">
+                <li class="social-icons__item footer__social-icons__item">
+                  <svg class="social-icons__icon icon">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </li>
-                <li>
-                  <svg class="icon">
+                <li class="social-icons__item footer__social-icons__item">
+                  <svg class="social-icons__icon icon">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
                 </li>
-              </ul>
-            </div>
-          </div>
-           <section class="footer-title-newsletter">
-            <span>Zapisz się do newslettera</span>
-            <form name="signup_form" autocomplete="on" novalidate>
+               </ul>
+              </div>
+          </section>
+          <section class="footer__newsletter__box">
+            <span class="footer__title">Zapisz się do newslettera</span>
+            <form name="signup_form" autocomplete="on" novalidate class="item__flex">
               <label>
                 <input
                   type="email"
                   name="E-mail"
                   placeholder="E-mail"
-                  class="newsletter"
+                  class="newsletter__input"
                 />
               </label>
-              <button type="submit" class="button-newsletter">
-                <span>Zapisz się</span>
-                <svg class="icon icon-send">
+              <button type="submit" class="newsletter__button">
+                <span class="newsletter__button__text">zapisz się</span>
+                <svg class="newsletter__icon-send icon">
                   <use href="./images/icons.svg#icon-icon_send"></use>
                 </svg>
               </button>
             </form>
           </section>
         </div>
-      </footer>     
+      </footer>
+      
     </div>
   </body>
 </html>

@@ -394,7 +394,7 @@
               </ul>
             </address>
           </div>
-          <div class="footer__social-icons__box">
+          <section class="footer__social-icons__box">
             <span class="footer__title">dołącz do nas</span>
               <div class="social-icon__box--space">
                <ul class="social-icons__box" >
@@ -420,21 +420,21 @@
                 </li>
                </ul>
               </div>
-          </div>
-          <section class="footer__newsletter">
-            <span class="footer__newsletter--title">Zapisz się do newslettera</span>
-            <form name="signup_form" autocomplete="on" novalidate>
+          </section>
+          <section class="footer__newsletter__box">
+            <span class="footer__title">Zapisz się do newslettera</span>
+            <form name="signup_form" autocomplete="on" novalidate class="item__flex">
               <label>
                 <input
                   type="email"
                   name="E-mail"
                   placeholder="E-mail"
-                  class="footer__newsletter__input"
+                  class="newsletter__input"
                 />
               </label>
-              <button type="submit" class="footer__newsletter__button">
-                <span class="footer__newsletter__button--text">Zapisz się</span>
-                <svg class="icon footer__newsletter__icon-send">
+              <button type="submit" class="newsletter__button">
+                <span class="newsletter__button__text">zapisz się</span>
+                <svg class="newsletter__icon-send icon">
                   <use href="./images/icons.svg#icon-icon_send"></use>
                 </svg>
               </button>

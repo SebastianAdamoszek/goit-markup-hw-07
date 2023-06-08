@@ -1,17 +1,22 @@
-.footer__newsletter {
-  padding-bottom: 50px;
+.footer__newsletter__box {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
 }
-.footer__social-icon--title,
-.footer__newsletter--title {
+.footer__title {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
 }
-.footer__newsletter__input {
-  margin-top: 18px;
-  height: 44px;
+
+
+.newsletter__input {
+ 
+  height: 50px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -21,27 +26,22 @@
   color: var(--white-color);
 }
 
-.footer__newsletter__icon-send {
-  color: var(--white-color);
-  height: 24px;
-  width: 24px;
-}
-.footer__newsletter__button {
-  height: 44px;
+
+.newsletter__button {
+  height: 50px;
   width: 200px;
   border: none;
   border-radius: 4px;
   background-color: var(--blue-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 12px;
+  gap: 24px;
   transition: var(--transition);
 }
-.footer__newsletter__button--text {
-  padding: 10px 24px 10px 0px;
+.newsletter__button__text {
   color: var(--white-color);
   font-family: Roboto serif;
   text-transform: uppercase;
@@ -50,6 +50,17 @@
   letter-spacing: 0.06em;
 }
 
-.footer__newsletter__button:hover {
+.newsletter__button:hover {
   transform: scale(1.1);
+}
+.item__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.newsletter__icon-send {
+  color: var(--white-color);
+  height: 24px;
+  width: 24px;
 }
