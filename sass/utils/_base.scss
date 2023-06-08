@@ -30,16 +30,22 @@ button {
     margin: 0px auto;
 }
 
-.container {
+.sections__container {
     width: 1200px;
     margin: 0px auto;
 }
+.section__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 30px;
+}
 
-.section-top {
+.section__space-top {
     padding-top: 94px;
 }
 
-.section-bottom {
+.section__space-bottom {
     padding-bottom: 94px;
 }
 

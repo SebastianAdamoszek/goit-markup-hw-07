@@ -1,12 +1,12 @@
-.logo__link--text {
+.logo__link__text {
     font-family: "raleway", sans-serif;
     color: var(--blue-color);
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.6;
 }
-.logo__link--text:hover .logo--text-white,
-.logo__link--text:hover .logo--text-black {
+.logo__link__text:hover .logo__text-white,
+.logo__link__text:hover .logo__text-black {
     color: var(--blue-color);
     transition: var(--transition);
 }
@@ -30,11 +30,11 @@
     left: 0;
 }
 // logo in header
-.logo--text-black {
+.logo__text-black {
     color: var(--logo-black-color);
 }
 // logo in footer
-.logo--text-white {
+.logo__text-white {
     color: var(--white-color);
 }
 
