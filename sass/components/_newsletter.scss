@@ -8,11 +8,9 @@
 .footer__title {
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
 }
-
 
 .newsletter__input {
  
@@ -26,8 +24,8 @@
   color: var(--white-color);
 }
 
-
 .newsletter__button {
+
   height: 50px;
   width: 200px;
   border: none;
@@ -40,6 +38,10 @@
   align-items: center;
   gap: 24px;
   transition: var(--transition);
+  
+  &:hover {
+  transform: scale(1.1);
+}
 }
 .newsletter__button__text {
   color: var(--white-color);
@@ -50,9 +52,7 @@
   letter-spacing: 0.06em;
 }
 
-.newsletter__button:hover {
-  transform: scale(1.1);
-}
+
 .item__flex {
   display: flex;
   justify-content: center;

@@ -1,20 +1,31 @@
 .logo__link__text {
-    font-family: "raleway", sans-serif;
-    color: var(--blue-color);
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    line-height: 1.6;
-}
-.logo__link__text:hover .logo__text-white,
-.logo__link__text:hover .logo__text-black {
+    
+  font-family: "raleway", sans-serif;
+  color: var(--blue-color);
+  font-size: 26px;
+  line-height: 1.6;
+
+  &:hover .logo__text-white,
+  &:hover .logo__text-black {
+   
     color: var(--blue-color);
     transition: var(--transition);
+  }
+}
+
+// logo color in header
+.logo__text-black {
+  color: var(--logo-black-color);
+}
+// logo color in footer
+.logo__text-white {
+  color: var(--white-color);
 }
 // text decoration in logo header
 .logo--underline {
-    position: relative;
-}
-.logo--underline::after {
+  position: relative;
+
+  &::after {
     content: "";
     width: 0;
     height: 4px;
@@ -24,18 +35,9 @@
     right: 0;
     background: var(--blue-color);
     transition: width 0.5s, right 0.5s;
-}
-.logo--underline:hover::after {
+  }
+  &:hover::after {
     width: 100%;
     left: 0;
+  }
 }
-// logo in header
-.logo__text-black {
-    color: var(--logo-black-color);
-}
-// logo in footer
-.logo__text-white {
-    color: var(--white-color);
-}
-
-

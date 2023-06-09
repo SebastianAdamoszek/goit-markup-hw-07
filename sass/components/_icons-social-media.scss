@@ -1,11 +1,11 @@
 .social-icons__box {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   gap: 12px;
 }
 .social-icon__box--space {
- padding-top: 20px;
+  padding-top: 20px;
 }
 .social-icons__item {
   border-radius: 50%;
@@ -14,14 +14,14 @@
   height: 44px;
   padding-top: 12px;
   cursor: pointer;
-}
-.social-icons__item:focus,
-.social-icons__item:hover {
-  background-color: var(--blue-color);
-  color: var(--white-color);
-  transition: var(--transition);
-}
 
+  &:focus,
+  &:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: var(--transition);
+  }
+}
 .social-icons__icon {
   width: 20px;
   height: 20px;
@@ -37,7 +37,6 @@
 .footer__title {
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -50,6 +49,5 @@
 
 .footer__social-icons__item {
   background-color: var(--gray-color);
-  color: var(--white-color)
-
+  color: var(--white-color);
 }

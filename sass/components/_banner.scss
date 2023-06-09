@@ -7,19 +7,19 @@
   background-color: var(--banner-background);
   padding: 200px;
 
- h1 {
+  h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em; 
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
     width: 617px;
-    margin: 0 auto;  
+    margin: 0 auto;
   }
 }
 
-.banner__button {  
+.banner__button {
   margin-top: 30px;
   background: var(--blue-color);
   border: 2px solid var(--blue-color);
@@ -27,12 +27,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 41px;
   transition: var(--transition);
-}
 
-.banner__button:focus,
-.banner__button:hover {
-  transition: var(--transition);
-  transform: scale(1.1);
+  &:focus,
+  &:hover {
+    transition: var(--transition);
+    transform: scale(1.1);
+  }
 }
 
 .banner__button__text {
@@ -40,6 +40,5 @@
   text-transform: uppercase;
   color: var(--white-color);
   font-weight: 700;
-  line-height: 1.8;
   letter-spacing: 0.06em;
 }

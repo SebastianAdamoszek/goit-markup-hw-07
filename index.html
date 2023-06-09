@@ -444,51 +444,50 @@
       </footer>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button type="button" class="close-btn" data-modal-close>
+          <button type="button" class="close-button" data-modal-close>
             <svg>
               <use href="./images/icons.svg#icon-close-black-18dp-2-1" />
             </svg>
             </button>
-            <h2 class="modal-title">
+            <h2 class="title__position">
               Zostaw swoje dane w formularzu poniżej
             </h2>
-            <form name="signup_form" autocomplete="on">
-              <label class="form-element form-element-input">
-                <span class="modal-form-text">Imię</span>
-                <input type="text" name="name" class="modal-form-box" />
-                <svg class="input-icon">
+            <form  class="form__column" name="signup_form" autocomplete="on">
+              <label class="label">
+                <span>Imię</span>
+                <input type="text" name="name" class="form__box" />
+                <svg class="input__icon">
                   <use href="images/icons.svg#icon-icon_person"></use>
                 </svg>
               </label>
-              <label class="form-element form-element-input">
-                <span class="modal-form-text">Telefon</span>
-                <input type="tel" name="phone_number" class="modal-form-box" />
-                <svg class="input-icon">
+              <label class="label">
+                <span>Telefon</span>
+                <input type="tel" name="phone_number" class="form__box" />
+                <svg class="input__icon">
                   <use href="images/icons.svg#icon-icon_tel"></use>
                 </svg>
               </label>
-              <label class="form-element form-element-input">
-                <span class="modal-form-text">E-mail</span>
-                <input type="email" name="email" class="modal-form-box" />
-                <svg class="input-icon">
+              <label class="label">
+                <span>E-mail</span>
+                <input type="email" name="email" class="form__box" />
+                <svg class="input__icon">
                   <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                 </svg>
               </label>
-              <label class="form-element form-element-input">
-                <span class="modal-form-text">Komentarz</span>
+              <label class="label">
+                <span>Komentarz</span>
                 <textarea
-                  class="modal-form-textarea"
+                  class="form__textarea"
                   name="feedback"
                   rows="6"
                   placeholder="Wprowadź tekst"
                 ></textarea>
               </label>
-              <label class="modal-checkbox">
-                
-                <span class="modal-checkbox-text"
+              <label class="checkbox">                
+                <span class="checkbox__text"
                   >Oświadczam iż akceptuję
-                  <a href="#" class="modal-checkbox-link">Regulamin</a> i
-                  <a href="#" class="modal-checkbox-link"
+                  <a href="#" class="checkbox__link">Regulamin</a> i
+                  <a href="#" class="checkbox__link"
                     >Politykę Prywatności</a
                   ></span
                 >
@@ -498,13 +497,13 @@
                   value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."
                 />
                 <span class="checkmark">
-                  <svg class="modal-checkbox-icon">
+                  <svg class="checkbox__icon">
                     <use href="./images/icons.svg#icon-icon-check"></use>
                   </svg>
                 </span>
               </label>
-              <div class="modal-button-position">
-                <button type="submit" class="modal-form-button">Wyślij</button>
+              <div class="button__position">
+                <button type="submit" class="button button__text">wyślij</button>
               </div>
             </form>
           </button>
