@@ -1,4 +1,4 @@
-.buttons__box {
+.btns__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-bottom: 34px;
 }
 
-.button {
+.btn {
   background: var(--light-gray-color);
   border: var(--light-gray-color);
   border-radius: 4px;
@@ -23,7 +23,7 @@
     transition: var(--transition);
   }
 }
-.button__text {
+.btn__text {
   font-weight: 500;
   line-height: 1.39;
   display: inline;

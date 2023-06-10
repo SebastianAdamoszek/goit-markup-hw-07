@@ -20,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  min-height: 581px;
+  height: auto;
   background-color: var(--white-color);
 
   h2 {
@@ -79,9 +79,9 @@
 
 textarea {
   width: 448px;
+  height: auto;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  height: 120px;
+  border-radius: 4px;  
   resize: none;
   padding-top: 12px;
   padding-left: 16px;
@@ -89,7 +89,7 @@ textarea {
   &::placeholder {
     font-size: 12px;
     line-height: 1.2;
-    color: rgba(117, 117, 117, 0.5);
+    color: rgba(117, 117, 117, 0.5);  
   }
 }
 
@@ -150,10 +150,10 @@ textarea {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  height: 40px;
   position: relative;
   padding-left: 40px;
   box-sizing: border-box;
+  line-height: 2.5;
 }
 
 .form__box:focus + .input__icon,
@@ -163,17 +163,16 @@ textarea {
 .form__box:active,
 .form__box:focus {
   fill: var(--blue-color);
+  transition: var(--transition);
   border-color: var(--blue-color);
   outline: none;
-  transition: var(--transition);
 }
-.button__position {
+.modal__button__position {
   display: flex;
   justify-content: center;
 }
-.button {
-  width: 200px;
-  height: 50px;
+.modal__button {
+  padding: 10px 76px;
   margin-bottom: 40px;
   background: var(--blue-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
@@ -185,7 +184,7 @@ textarea {
     transform: scale(1.1);
   }
 }
-.button__text {
+.modal__button__text {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.06em;
