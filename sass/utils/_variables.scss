@@ -15,7 +15,8 @@
   --transition: transform 250ms var(--cubic-bezier),
     background-color 250ms var(--cubic-bezier),
     border-color 250ms var(--cubic-bezier),
-    visibility 250ms var(--cubic-bezier);  
+    visibility 250ms var(--cubic-bezier),
+    fill 250ms var(--cubic-bezier); 
   --blue-transparent-background: #2196f3e6;
 }
 
@@ -26,6 +27,7 @@ body {
   color: var(--black-text-color);
   line-height: 1.8;
   letter-spacing: 0.03rem;
+  
 }
 
 h2 {
