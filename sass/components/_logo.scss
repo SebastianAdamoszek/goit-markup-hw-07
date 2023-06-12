@@ -4,22 +4,25 @@
   color: var(--blue-color);
   font-size: 26px;
   line-height: 1.6;
+  
 
   &:hover .logo__text-white,
   &:hover .logo__text-black {
    
     color: var(--blue-color);
-    transition: var(--transition);
+    
   }
 }
 
 // logo color in header
 .logo__text-black {
   color: var(--logo-black-color);
+   transition: var(--transition);
 }
 // logo color in footer
 .logo__text-white {
   color: var(--white-color);
+  transition: var(--transition);
 }
 // text decoration in logo header
 .logo--underline {

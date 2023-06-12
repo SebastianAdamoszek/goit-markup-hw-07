@@ -6,7 +6,8 @@
 }
 
 .header__link--color {
-  color: var(--gray-color);
+  color: var(--gray-color);  
+  transition: var(--transition);
 }
 .header__link--color:hover {
   color: var(--blue-color);
@@ -53,8 +54,10 @@
 .footer__link--color-white {
   color: var(--white-color);
   line-height: 2.2;
+  transition: var(--transition);
 }
 .footer__link--color-gray {
   color: var(--light-gray-text-color);
   line-height: 2.2;
+  transition: var(--transition);
 }

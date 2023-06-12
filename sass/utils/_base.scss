@@ -8,9 +8,8 @@ a:focus {
     color: var(--blue-color);
 }
 
-a:link {
+a {
     text-decoration: none;
-    transition: var(--transition);
 }
 
 ul {
@@ -50,8 +49,6 @@ button {
 }
 
 .icon {
-    display: inline-block;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor; 
+      fill: currentColor; 
+      transition: var(--transition);
 }
