@@ -14,12 +14,12 @@
   height: 44px;
   padding-top: 12px;
   cursor: pointer;
+  transition: var(--transition);
 
   &:focus,
   &:hover {
     background-color: var(--blue-color);
     color: var(--white-color);
-    transition: var(--transition);
   }
 }
 .social-icons__icon {
