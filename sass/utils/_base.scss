@@ -6,11 +6,12 @@
 a:hover,
 a:focus {
   color: var(--blue-color);
-  transition: var(--transition);
+
 }
 
 a {
     text-decoration: none;
+    transition: var(--transition);
 }
 
 ul {

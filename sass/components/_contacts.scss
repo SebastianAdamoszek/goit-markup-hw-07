@@ -7,7 +7,7 @@
 
 .header__link--color {
   color: var(--gray-color);  
-  transition: var(--transition);
+
 }
 .header__link--color:hover {
   color: var(--blue-color);
@@ -34,7 +34,7 @@
     width: 0;
     height: 4px;
     position: absolute;
-    top: 49.7px;
+    top: 45px;
     right: 0;
     border-radius: 2px;
     background: var(--blue-color);
@@ -54,10 +54,8 @@
 .footer__link--color-white {
   color: var(--white-color);
   line-height: 2.2;
-  transition: var(--transition);
 }
 .footer__link--color-gray {
   color: var(--light-gray-text-color);
   line-height: 2.2;
-  transition: var(--transition);
 }
